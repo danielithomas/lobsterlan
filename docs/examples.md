@@ -77,7 +77,7 @@ For Scotty to report results back to Spock after an async task, Scotty needs Spo
 ```bash
 # Scotty's task completion notifies Spock
 curl -X POST http://192.168.1.2:18789/hooks/agent \
-  -H 'Authorization: Bearer POES_HOOKS_TOKEN' \
+  -H 'Authorization: Bearer PEER_HOOKS_TOKEN' \
   -H 'Content-Type: application/json' \
   -d '{
     "message": "Task complete: 5 wallpapers generated and pushed to file share. Files: zen-1.png through zen-5.png",
