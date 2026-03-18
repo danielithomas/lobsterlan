@@ -1,5 +1,6 @@
 ---
 name: lobsterlan
+version: 1.0.1
 description: Communicate with other OpenClaw agents on your local network. Use when you need to ask another agent a question (sync), delegate a task (async), or check if a peer agent is reachable. Supports both synchronous chat completions and asynchronous webhook-based task delegation. Requires peers.json config with peer addresses and tokens.
 ---
 
